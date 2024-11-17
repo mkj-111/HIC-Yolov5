@@ -23,8 +23,8 @@ from utils.general import colorstr, increment_path, make_divisible, non_max_supp
 from utils.plots import Annotator, colors
 from utils.torch_utils import time_sync
 
-from timm.models.layers import DropPath, to_2tuple, trunc_normal_
-import torch.nn.functional as F
+# from timm.models.layers import DropPath, to_2tuple, trunc_normal_
+# import torch.nn.functional as F
 
 LOGGER = logging.getLogger(__name__)
 

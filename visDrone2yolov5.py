@@ -26,9 +26,8 @@ def visdrone2yolo(dir):
                     fl.writelines(lines)  # write label.txt
 
 
-dir = Path('C:/yolov5/datasets/VisDrone2019')  # dataset文件夹下Visdrone2019文件夹路径
+dir = Path('D:/mkj/workspace/py-workspace/HIC-Yolov5/datasets/VisDrone2019')  # dataset文件夹下Visdrone2019文件夹路径
 
-visdrone2yolo(dir/'VisDrone2019-DET-test-challenge')
 # # Convert
-# for d in 'VisDrone2019-DET-train', 'VisDrone2019-DET-val', 'VisDrone2019-DET-test-dev', 'VisDrone2019-DET-test-challenge':
-#     visdrone2yolo(dir / d)  # convert VisDrone annotations to YOLO labels
+for d in 'VisDrone2019-DET-train', 'VisDrone2019-DET-val', 'VisDrone2019-DET-test-dev':
+    visdrone2yolo(dir / d)  # convert VisDrone annotations to YOLO labels

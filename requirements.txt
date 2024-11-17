@@ -34,5 +34,3 @@ albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
 thop  # FLOPs computation
-
-yaml~=0.2.5
